@@ -1,0 +1,126 @@
+#root {
+  width: 100%;
+}
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgb(116, 81, 235) 0px 2px 5px -1px,
+    rgb(116, 81, 235) 0px 1px 3px -1px;
+  padding: 20px;
+  height: 100px;
+}
+
+.header h1 {
+  color: #7451eb;
+  font-size: 35px;
+}
+
+.nav-Bar ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.nav-Bar ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  width: 100px;
+  height: 50px;
+}
+.nav-Bar ul li:hover {
+  text-decoration: underline;
+  color: #7451eb;
+}
+
+main {
+  margin: 0px 40px;
+}
+
+.presentation-article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.presentation {
+  margin: 30px 0px 60px 0px;
+  box-shadow: rgb(116, 81, 235, 0.2) 0px 0.5px 1px 0px;
+  padding: 10px;
+}
+
+.presentation h1 {
+  color: #7451eb;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.presentation-article-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #4a3493b9;
+  text-align: left;
+  width: 700px;
+}
+
+#projet {
+  box-shadow: rgb(116, 81, 235, 0.2) 0px 2px 8px 0px;
+  border-radius: 20px;
+}
+.carousel-description {
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.834);
+}
+.carousel-control-prev,
+.carousel-control-next {
+  color: rgb(94, 94, 39);
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  color: black;
+}
+.carousel-indicators {
+  background-color: rgba(0, 0, 0, 0.834);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: max-content;
+  margin-top: 30px;
+  background-color: #7451eb;
+}
+footer h1 {
+  margin-top: 30px;
+  font-size: 1.5em;
+}
+footer svg {
+  width: 50px;
+}
+.footer-logo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 15px;
+}
+
+.form-information {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  width: 50%;
+}
+.form-information button {
+  margin-top: ;
+}
