@@ -1,3 +1,4 @@
+import React from "react";
 import {
   MDBCarousel,
   MDBCarouselItem,
@@ -6,8 +7,12 @@ import {
 import data from "../assets/code-projet.json";
 
 export default function Caroussel() {
-  const projects = data.projects;
-  console.log(projects);
+  const projects = data.bigprojects;
+
+  if (!projects) {
+    return <div>Loading...</div>;
+  }
+
   return (
     <div className="grosProjet">
       <h2>Présentation gros projet</h2>
@@ -15,7 +20,11 @@ export default function Caroussel() {
         <MDBCarousel showControls showIndicators>
           {projects.map((project) => (
             <MDBCarouselItem key={project.id}>
-              <img src={project.image} className="d-block w-100" alt="..." />
+              <img
+                src={project.image}
+                className="d-block w-100"
+                alt={project.alt}
+              />
               <a href={project.gitHub}>
                 <MDBCarouselCaption>
                   <div className="carousel-description">

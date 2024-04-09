@@ -5,8 +5,14 @@ export default function Competence() {
     <>
       <div id="competence">
         <h1>Compétence</h1>
-        <div className="competence-logo">
-          <Logo />
+        <div className="contentWrapper">
+          <div className="div">
+            <div className="at-item-top"></div>
+            <div className="competence-logo">
+              <Logo />
+            </div>
+            <div className="at-item"></div>
+          </div>
         </div>
       </div>
     </>

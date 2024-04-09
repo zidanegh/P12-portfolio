@@ -1,10 +1,12 @@
 import { useState } from "react";
 
 export default function Contact() {
-  const [result, setResult] = useState("");
+  const [result, setResult] = useState("Envoyer votre message");
+  const [buttonText, setButtonText] = useState("Envoyer votre message"); // State to track button text
 
   const onSubmit = async (event) => {
     event.preventDefault();
+    setButtonText("Envoi en cours..."); // Change button text when form is submitted
     setResult("Sending....");
     const formData = new FormData(event.target);
 
@@ -24,18 +26,23 @@ export default function Contact() {
       console.log("Error", data);
       setResult(data.message);
     }
+
+    // Reset button text after a short delay
+    setTimeout(() => {
+      setResult("Envoyer votre message");
+    }, 2000); // 3000 milliseconds = 3 seconds
   };
 
   return (
     <>
       <form onSubmit={onSubmit} className="form" action="">
         <div>
-          <label htmlFor="email">email</label>
+          <label htmlFor="email">Email</label>
           <input
             type="email"
             name="email"
             id="email"
-            placeholder="veuillez rentrer votre mail"
+            placeholder="Veuillez rentrer votre mail"
             required
           />
         </div>
@@ -45,23 +52,23 @@ export default function Contact() {
             type="titre"
             name="titre"
             id="titre"
-            placeholder="veuillez rentrer votre object"
+            placeholder="Veuillez rentrer votre object"
             required
           />
         </div>
         <div>
-          <label htmlFor="message">message</label>
+          <label htmlFor="message">Message</label>
           <input
             type="message"
             name="message"
             id="message"
-            placeholder="veuillez rentrer votre message"
+            placeholder="Veuillez rentrer votre message"
             required
           />
         </div>
-        <button type="submit">envoyer votre message</button>
+        <button type="submit">{result}</button>
       </form>
-      <span>{result}</span>
+      <span></span>
     </>
   );
 }
