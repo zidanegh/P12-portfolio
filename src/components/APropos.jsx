@@ -21,7 +21,7 @@ export default function APropos() {
           <img
             className="presentation-article-img"
             src="/src/assets/coding.jpg"
-            alt=""
+            alt="image ligne de code"
           />
         </article>
       </section>
