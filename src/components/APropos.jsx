@@ -20,7 +20,7 @@ export default function APropos() {
           </div>
           <img
             className="presentation-article-img"
-            src="./src/assets/coding.jpg"
+            src="/src/assets/coding.jpg"
             alt=""
           />
         </article>
