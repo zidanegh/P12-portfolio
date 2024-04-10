@@ -79,10 +79,11 @@ main {
 }
 
 #competence {
-  margin-bottom: 60px;
+  margin: 120px 0 90px 0;
 }
 
 .contentWrapper {
+  margin-top: 80px;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -209,8 +210,10 @@ i {
 }
 .logoRedux {
   width: 60px;
-  filter: grayscale(100%);
   transition: color 0.3s ease;
+}
+.greyscale {
+  filter: grayscale(100%);
 }
 .logoRedux:hover {
   filter: grayscale(0%);
@@ -248,7 +251,7 @@ i {
   font-size: 45px;
   border-right: 3px solid #7451eb;
   padding-right: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   width: 268px;
 }
 #projet h2 {
@@ -266,30 +269,18 @@ i {
 }
 
 .carousel {
-  width: 90%;
+  width: 70%;
   box-shadow: rgb(116, 81, 235, 0.2) 0px 2px 8px 0px;
   border-radius: 20px;
 }
-
-.carousel-item-next,
-.carousel-item-prev {
-  width: 100%;
+.carousel-root {
+  width: 70%;
 }
-
-.carousel-description {
-  color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.834);
+.carousel.carousel-slider .control-arrow {
+  padding: 10px;
 }
-.carousel-control-prev,
-.carousel-control-next {
-  color: rgb(94, 94, 39);
-}
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-  color: black;
-}
-.carousel-indicators {
-  background-color: rgba(0, 0, 0, 0.834);
+.carousel .thumbs {
+  display: none;
 }
 
 .filtre {
@@ -464,6 +455,9 @@ footer p {
       transform: translateX(-135px);
     }
   }
+  .carousel-root {
+    width: 99%;
+  }
   #projet h1 {
     font-size: 25px;
     width: 168px;
@@ -592,6 +586,9 @@ footer p {
       transform: translateX(0px);
     }
   }
+  .carousel-root {
+    width: 99%;
+  }
   #projet {
     width: 100%;
   }
@@ -607,18 +604,19 @@ footer p {
     margin-bottom: 20px;
   }
   .cardWapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 10px;
   }
   .card {
-    width: 47%;
+    width: 90%;
   }
   .container h4 {
-    display: none;
-    font-size: 10px;
+    font-size: 20px;
   }
   .container p {
-    display: none;
-    font-size: 8px;
+    font-size: 15px;
   }
   #contact h1 {
     color: #7451eb;

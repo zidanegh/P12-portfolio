@@ -5,7 +5,7 @@
       "name": "Booki",
       "description": "Ce projet était mon tout premier, grâce à lui j'ai pu comprendre les bases de l'HTML et du CSS",
       "tags": ["HTML", "CSS"],
-      "image": "./src/assets/img_preview_projet/booki.webp",
+      "image": "https://raw.githubusercontent.com/zidanegh/P12-portfolio/main/src/assets/img_preview_projet/booki.webp",
       "alt": "Image montrant le site Booki",
       "gitHub": "https://github.com/zidanegh/booki.git"
     },
@@ -14,7 +14,7 @@
       "name": "Ohmyfood",
       "description": "Pour ce projet j'ai du réaliser un site prototype pour un des réservation de restaurant",
       "tags": ["HTML", "CSS", "SASS"],
-      "image": "./src/assets/img_preview_projet/ohmyfood.webp",
+      "image": "https://raw.githubusercontent.com/zidanegh/P12-portfolio/main/src/assets/img_preview_projet/ohmyfood.webp",
       "alt": "Image montrant le site Ohmyfood",
       "gitHub": "https://github.com/zidanegh/ohmyfood.git"
     },
@@ -23,7 +23,7 @@
       "name": "Sophie Bluel",
       "description": "Pour ce projet j'ai du réaliser pour une architecte en lui implémentant des calls api pour display et delete ses projets",
       "tags": ["JavaScript"],
-      "image": "./src/assets/img_preview_projet/sophiebluel.webp",
+      "image": "https://raw.githubusercontent.com/zidanegh/P12-portfolio/main/src/assets/img_preview_projet/sophiebluel.webp",
       "alt": "Image montrant le site Sophie_Bluel",
       "gitHub": "https://github.com/zidanegh/sophie_bluel.git"
     },
@@ -32,7 +32,7 @@
       "name": "Kasa",
       "description": "Pour ce projet j'ai du réaliser un site de location immobilier grace à react qui est aussi ma première fois avec ce framework",
       "tags": ["React", "SASS"],
-      "image": "./src/assets/img_preview_projet/kasa.webp",
+      "image": "https://raw.githubusercontent.com/zidanegh/P12-portfolio/main/src/assets/img_preview_projet/kasa.webp",
       "alt": "Image montrant le site Kasa",
       "gitHub": "https://github.com/zidanegh/Kasa.git"
     },
@@ -41,7 +41,7 @@
       "name": "Ninacarducci",
       "description": "Pour ce projet j'ai eu le droit à l'optimisation SEO et des Performances du site ce qui m'a donner pas mal de fil à retordre mais j'ai réussi",
       "tags": [""],
-      "image": "./src/assets/img_preview_projet/ninacarducci.webp",
+      "image": "https://raw.githubusercontent.com/zidanegh/P12-portfolio/main/src/assets/img_preview_projet/ninacarducci.",
       "alt": "Image montrant le site Ninacarducci",
       "gitHub": "https://github.com/zidanegh/ninacarducci.git"
     },
@@ -50,7 +50,7 @@
       "name": "724events",
       "description": "Pour ce projet j'ai dû débugger tout un site sous react",
       "tags": ["React"],
-      "image": "./src/assets/img_preview_projet/724events.webp",
+      "image": "https://raw.githubusercontent.com/zidanegh/P12-portfolio/main/src/assets/img_preview_projet/724events.webp",
       "alt": "Image montrant le site 724events",
       "gitHub": "https://github.com/zidanegh/P10-724events.git"
     },
@@ -59,7 +59,7 @@
       "name": "argentBank",
       "description": "Pour ce projet j'ai du faire le site en site one page grace à react et réaliser un le systéme de login et route du site",
       "tags": ["React", "Redux"],
-      "image": "./src/assets/img_preview_projet/argentbank.webp",
+      "image": "https://raw.githubusercontent.com/zidanegh/P12-portfolio/main/src/assets/img_preview_projet/argentbank.webp",
       "alt": "Image montrant le site argent bank",
       "gitHub": "https://github.com/zidanegh/P11-argent-bank.git"
     }
@@ -69,7 +69,7 @@
       "id": 1,
       "name": "Sophie Bluel",
       "description": "Pour ce projet j'ai du réaliser pour une architecte en lui implémentant des calls api pour display et delete ses projets",
-      "image": "./src/assets/img_preview_projet/sophiebluel.webp",
+      "image": "https://raw.githubusercontent.com/zidanegh/P12-portfolio/main/src/assets/img_preview_projet/sophiebluel.webp",
       "alt": "Image montrant le site Sophie_Bluel",
       "gitHub": "https://github.com/zidanegh/sophie_bluel.git"
     },
@@ -77,7 +77,7 @@
       "id": 2,
       "name": "Kasa",
       "description": "Pour ce projet j'ai du réaliser un site de location immobilier grace à react qui est aussi ma première fois avec ce framework",
-      "image": "./src/assets/img_preview_projet/kasa.webp",
+      "image": "https://raw.githubusercontent.com/zidanegh/P12-portfolio/main/src/assets/img_preview_projet/kasa.webp",
       "alt": "Image montrant le site Kasa",
       "gitHub": "https://github.com/zidanegh/Kasa.git"
     },
@@ -85,7 +85,7 @@
       "id": 3,
       "name": "argentBank",
       "description": "Pour ce projet j'ai du faire le site en site one page grace à react et réaliser un le systéme de login et route du site",
-      "image": "./src/assets/img_preview_projet/argentbank.webp",
+      "image": "https://raw.githubusercontent.com/zidanegh/P12-portfolio/main/src/assets/img_preview_projet/argentbank.webp",
       "alt": "Image montrant le site argent bank",
       "gitHub": "https://github.com/zidanegh/P11-argent-bank.git"
     }
