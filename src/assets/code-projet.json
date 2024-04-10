@@ -100,7 +100,7 @@
     {
       "id": 6,
       "logoName": "Redux",
-      "imgLogo": "/src/assets/logo/logoRedux.png"
+      "imgLogo": "./src/assets/logo/logoRedux.png"
     }
   ]
 }
