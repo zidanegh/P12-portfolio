@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import data from "../assets/code-projet.json";
 import Filteur from "../components/Filter";
 import { useSelector } from "react-redux";
-import React, { useState } from "react";
 import { Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import Github from "../components/Logo/Github";
 
