@@ -1,3 +1,4 @@
+import React from "react";
 import data from "../assets/code-projet.json";
 import Filteur from "../components/Filter";
 import { useSelector } from "react-redux";

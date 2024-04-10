@@ -1,8 +1,8 @@
 import { useState } from "react";
+import React from "react";
 
 export default function Contact() {
   const [result, setResult] = useState("Envoyer votre message");
-  const [buttonText, setButtonText] = useState("Envoyer votre message"); // State to track button text
 
   const onSubmit = async (event) => {
     event.preventDefault();

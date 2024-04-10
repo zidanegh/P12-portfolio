@@ -1,3 +1,4 @@
+import React from "react";
 import Caroussel from "../components/Caroussel";
 import APropos from "../components/APropos";
 import Competence from "./Competence";
