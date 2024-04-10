@@ -19,7 +19,6 @@ export default function ToutLesProjects() {
       ? projects
       : projects.filter((project) => project.tags.includes(chosenTag));
 
-  // Function to set the selected project and open the modal
   const handleCardClick = (project) => {
     setSelectedProject(project);
     toggle();
