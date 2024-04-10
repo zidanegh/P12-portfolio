@@ -91,16 +91,10 @@
     }
   ],
   "logos": [
-    { "id": 0, "logoName": "ALL", "logoGlobe": "fa-solid fa-globe" },
     { "id": 1, "logoName": "HTML", "LogoChemin": "fa-brands fa-html5" },
     { "id": 2, "logoName": "CSS", "LogoChemin": "fa-brands fa-css3-alt" },
     { "id": 3, "logoName": "SASS", "LogoChemin": "fa-brands fa-sass" },
     { "id": 4, "logoName": "JavaScript", "LogoChemin": "fa-brands fa-js" },
-    { "id": 5, "logoName": "React", "LogoChemin": "fa-brands fa-react" },
-    {
-      "id": 6,
-      "logoName": "Redux",
-      "imgLogo": "./src/assets/logo/logoRedux.png"
-    }
+    { "id": 5, "logoName": "React", "LogoChemin": "fa-brands fa-react" }
   ]
 }

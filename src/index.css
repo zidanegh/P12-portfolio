@@ -204,7 +204,7 @@ div.at-container {
 }
 i {
   font-size: 60px;
-  margin-left: 20px;
+  margin-right: 20px;
   transition: color 0.3s ease;
 }
 .logoRedux {
@@ -266,8 +266,14 @@ i {
 }
 
 .carousel {
+  width: 90%;
   box-shadow: rgb(116, 81, 235, 0.2) 0px 2px 8px 0px;
   border-radius: 20px;
+}
+
+.carousel-item-next,
+.carousel-item-prev {
+  width: 100%;
 }
 
 .carousel-description {
@@ -437,7 +443,7 @@ footer p {
   }
   i {
     font-size: 40px;
-    margin-left: 20px;
+    margin-right: 20px;
   }
   .logoRedux {
     width: 40px;
@@ -489,9 +495,6 @@ footer p {
   }
 }
 @media only screen and (max-width: 540px) {
-  #root {
-    width: 100vw;
-  }
   main {
     margin: 0px 5px;
   }
@@ -501,7 +504,7 @@ footer p {
     justify-content: center;
     padding: 0px;
     height: max-content;
-    width: 75%;
+    width: 100%;
     margin: 0px;
   }
   .nav-Bar ul {
@@ -514,7 +517,8 @@ footer p {
   }
   #apropos {
     padding: 15px;
-    width: max-content;
+    width: 100%;
+    justify-content: space-between;
   }
   #apropos h1 {
     font-size: 15px;
@@ -528,21 +532,37 @@ footer p {
   }
   .presentation-article-text {
     font-size: 13px;
-    width: 170px;
   }
   #competence {
-    width: max-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   #competence h1 {
     font-size: 15px;
     width: 108px;
   }
+  .div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .competence-titre {
+    width: 100%;
+  }
+  .competence-logo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
   i {
-    font-size: 20px;
-    margin-left: 20px;
+    font-size: 1.5em;
+    margin-left: 0px;
+    margin-right: 10px;
   }
   .logoRedux {
-    width: 20px;
+    width: 22px;
   }
   .competence-logo {
     display: flex;
@@ -558,19 +578,22 @@ footer p {
   }
   @keyframes slide-right {
     0% {
-      transform: translateX(-95px);
+      transform: translateX(0px);
     }
     100% {
-      transform: translateX(125px);
+      transform: translateX(170px);
     }
   }
   @keyframes slide-left {
     0% {
-      transform: translateX(125px);
+      transform: translateX(170px);
     }
     100% {
-      transform: translateX(-95px);
+      transform: translateX(0px);
     }
+  }
+  #projet {
+    width: 100%;
   }
   #projet h1 {
     font-size: 15px;
@@ -580,18 +603,11 @@ footer p {
     margin: 20px 0;
     font-size: 12px;
   }
-  .grosProjet {
-    width: 300px;
-  }
-  .filtre {
-    width: 300px;
-  }
   .filtreur {
     margin-bottom: 20px;
   }
   .cardWapper {
     padding: 10px;
-    width: 300px;
   }
   .card {
     width: 47%;
@@ -610,7 +626,6 @@ footer p {
     border-right: 3px solid #7451eb;
     padding-right: 10px;
     margin-bottom: 20px;
-    width: 300px;
   }
   .form {
     display: flex;
@@ -618,7 +633,6 @@ footer p {
     align-items: center;
     height: max-content;
     gap: 20px;
-    width: 300px;
   }
   .form label {
     color: #7451eb;
@@ -644,7 +658,7 @@ footer p {
     width: 50%;
   }
   footer {
-    width: 300px;
+    width: 100%;
   }
   .footer-logo {
     width: max-content;

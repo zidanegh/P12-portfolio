@@ -5,7 +5,9 @@ export default function Competence() {
   return (
     <>
       <div id="competence">
-        <h1>Compétence</h1>
+        <div className="competence-titre">
+          <h1>Compétence</h1>
+        </div>
         <div className="contentWrapper">
           <div className="div">
             <div className="at-item-top"></div>

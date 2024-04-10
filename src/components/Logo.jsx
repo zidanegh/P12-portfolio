@@ -19,12 +19,6 @@ export default function Logo({ Click }) {
     setStringChosenLogo(chosenLogo.chosenLogo);
   }, [chosenLogo]);
 
-  const handleClick = () => {
-    if (Click) {
-      dispatch(chosenLogoSlice.actions.changeChosenLogo(reduxLogo.logoName));
-    }
-  };
-
   const handleClickLogo = (logo) => () => {
     if (Click) {
       dispatch(chosenLogoSlice.actions.changeChosenLogo(logo.logoName));
@@ -36,12 +30,8 @@ export default function Logo({ Click }) {
     <>
       {Click ? (
         <i
-          className={`${GlobeLogo.logoGlobe} ${
-            Click
-              ? stringChosenLogo === GlobeLogo.logoName
-                ? `${GlobeLogo.logoName}`
-                : ""
-              : ""
+          className={`${"fa-solid fa-globe"} ${
+            Click ? (stringChosenLogo === "ALL" ? "ALL" : "") : ""
           }`}
           onClick={Click ? handleClickLogo(GlobeLogo) : null}
         ></i>
@@ -62,12 +52,12 @@ export default function Logo({ Click }) {
         ></i>
       ))}
       <img
-        src={reduxLogo.imgLogo}
+        src="./src/assets/logo/logoRedux.png"
         alt="logo redux"
         className={`logoRedux ${
           stringChosenLogo === "Redux" ? "" : "grayscale"
         }`}
-        onClick={handleClick}
+        onClick={handleClickLogo("Redux")}
       />
     </>
   );
